@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>..::FORMULARIO::..</title>
+    </head>
+    <body>
+        <h1>
+            Formulario de Log In
+        </h1>
+        <form
+            method="POST" action="#">
+            <p>Usuario:
+                <input type="text" name="Usuario" id="Campo1"></input> <!--ID tiene que ser unico-->
+            </p>
+            <p>Clave:
+                <input type="password" name="Clave" id="Campo2"></input>
+            </p>
+            <select>
+                <option value="1" name="menues">Menu 1</option>
+                <option value="2" name="menues">Menu 2</option>
+                <option value="3" name="menues">Menu 3</option>
+            </select>
+            <input type="submit" value="Enviar"></input>
+            <input type="reset" value="Limpiar"></input><br>
+            <p>Examenes hechos:</p>
+            <input type="checkbox" value="ex1">Examen 1</input><br>
+            <input type="checkbox" value="ex2">Examen 2</input><br>
+            <input type="checkbox" value="ex3">Examen 3</input><br>
+            <input type="checkbox" value="ex4">Examen 4</input><br>
+            <input type="checkbox" value="ex5">Examen 5</input>
+            <p>Correo:<input type="email" name="correo1"></input></p>
+            <p>Slider:<input type="range" oninput="rangeValue.innerText = this.value"></input></p>
+            <p id="rangeValue">5    0</p>
+            
+        </form>
+    </body>
+
+</html>
